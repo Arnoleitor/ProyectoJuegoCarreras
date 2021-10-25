@@ -1,0 +1,181 @@
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+html{
+    cursor: url(/img/key.cur),auto;
+}
+
+.pantallaInicio {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;  
+}
+.inicio:hover{
+    height: 10em;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.pantallaIntro {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.pantallaSeleccion {
+    background-image: url(/img/INICIO.jpg);
+    display: flex;
+    background-size: cover;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 92.5vh;
+}
+.seleccionacoche{
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 57px;
+    font-family: fantasy;
+}
+
+
+.pantallaCarrera{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+#coche0{
+  
+}
+#coche1{
+   
+}
+.contadorDistancia{
+    background-color: black;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30vh; 
+    font-size: 57px;
+    font-family: fantasy;
+}
+.resultado{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+.theWinnerIs{
+    background-color: black;
+    color: red;
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10rem;
+}
+.cocheGanador{
+    background-image: url(/img/ganador.jpg);
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    height: 20em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+}
+#CocheGanador{
+    height: 30em;
+}
+.restart{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+}
+.startbutton:hover{
+    height: 2em;
+}
+.bordes {
+    height: 25em;
+    background-color: #e53e3e52;
+    border-radius: 360px;
+}
+
+#arrancamotores{
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/botonstart.jpg);
+    margin: auto;
+    margin-top: -199px;
+    z-index: 999;
+    display: flex;
+    border-radius: 111px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+    box-shadow: 3px 3px;
+    color: red;
+}
+
+#arrancamotoresletras{
+    font-size: 25px;
+    font-family: fantasy;
+    font-weight: 500;
+}
+.pantalla3{
+    background-image: url(/img/INICIO.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+#botonResultado{
+    display: block;
+    margin-bottom: 21px;
+    box-shadow: 3px 3px;
+    color: red;
+    font-size: -webkit-xxx-large;
+    font-family: fantasy;
+    border-radius: 21px;
+}
+
+#resultado{
+    display: block;
+    margin-bottom: 21px;
+    box-shadow: 3px 3px;
+    color: red;
+    font-size: -webkit-xxx-large;
+    font-family: fantasy;
+    border-radius: 21px;
+}
+
+#RepetirCarrera{
+    display: block;
+    margin-bottom: 21px;
+    box-shadow: 3px 3px;
+    color: red;
+    font-size: -webkit-xxx-large;
+    font-family: fantasy;
+    border-radius: 21px;
+}

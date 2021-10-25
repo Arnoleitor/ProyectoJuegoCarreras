@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Autor" content="Arnold Carcelen Espinosa">
+    <title>BootCampRacing</title>
+    <link href="css/estilo.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- PANTALLA DE INICIO -->
+    <section id="1">
+        <div class="pantallaInicio">
+            <img class="inicio" onClick='cambiarPantalla("2")' src="/img/pressstart.jpg" alt="pantallaInicio" />
+        </div>
+    </section>
+    <!-- PANTALLA DE INTRO -->
+    <section id="2" style="display:none">
+        <div class="pantallaIntro">
+            <video src="/video/intro.mp4" autoplay loop muted width="auto" height="100%"></video>
+            <div id="arrancamotores" onClick='cambiarPantalla("3")'>
+            <p id="arrancamotoresletras">ARRANCA MOTORES</p>
+        </div>
+        </div>
+    </section>
+    <!-- PANTALLA DE SELECCIÓN DE COCHES -->
+    <section id="3" style="display:none" class="pantalla3">
+        <div class="seleccionacoche">&darr;------SELECCIONA LOS COCHES------&darr;</div>
+        <div class="pantallaSeleccion">
+            <img class="bordes" onClick='seleccionarCoche("Alfa")' src="img/Alfa.png" alt="Alfa" />
+            <img class="bordes" onClick='seleccionarCoche("Mclaren")' src="img/Mclaren.png" alt="Mclaren" />
+            <img class="bordes" onClick='seleccionarCoche("Bmw")' src="img/Bmw.png" alt="Bmw" />
+            <img class="bordes" onClick='seleccionarCoche("Lambo")' src="img/Lambo.png" alt="Lambo" />
+        </div>
+        
+    </section>
+    <!-- PANTALLA DE LA CARRERA -->
+    
+    <section id="4" style="display:none">
+        <div class="pantallaCarrera" >
+            <img class="bordes" id="coche0" src="" alt="Coche0" />
+            <img class="bordes" id="coche1" src="" alt="Coche1" />
+        </div>
+        <div class="contadorDistancia">
+            <div id="contadorCoche0">Metros recorridos:</div>
+            <div id="contadorCoche1">Metros recorridos:</div>
+        </div>
+        <div class="resultado">
+            <button id="botonResultado" style="display:none" type="button" onClick='cambiarPantalla("5")'>RESULTADO</button>
+        </div>    
+    </section>
+     <!-- GANADOR  -->
+    <section id="5" style="display:none">
+        <div>
+            <div class="theWinnerIs">
+                &darr;¡EL GANADOR ES!&darr;
+            </div>
+            <div class="cocheGanador">
+                <img class="bordes" id="CocheGanador" src="" alt="CocheGanador" />
+            </div>
+            <div class="restart">
+                <button id="RepetirCarrera" type="button" onClick='resetearJuego()'>REINICIAR CARRERA</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
