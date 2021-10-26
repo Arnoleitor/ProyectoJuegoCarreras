@@ -29,7 +29,7 @@ Este es mi proyecto de juego con JavasCript y Css3:
 
 ⚙️--------Ganador y botón de reinicio para la siguiente carrera--------⚙️
 <p aling="center">
-  <img src="/img/imagenesReadme/start.png" width="500" title="hover text">
+  <img src="/img/imagenesReadme/ganador.png" width="500" title="hover text">
 </p>
 
 
