@@ -16,7 +16,7 @@ const cambiarPantalla = (pantallaDestino) => {
 
 
 let arrayDeCoches = ["", ""];
-var indice = 0;
+let indice = 0;
 
 // ---- selección de coches ---- //
 
@@ -28,16 +28,16 @@ function seleccionarCoche (coche) {
 }
 
 
-var MetrosRecorridosCoche0 = 0;
-var MetrosRecorridosCoche1 = 0;
-var MetrosARecorrer = 1000;
+let MetrosRecorridosCoche0 = 0;
+let MetrosRecorridosCoche1 = 0;
+let MetrosARecorrer = 1000;
 
 // ----- Función carrera ----- //
 
 function checkIndice() {
     if (indice == 2) {  
         cambiarPantalla("pantalla4");
-        var IntervaloDistancia = window.setInterval(function () {
+        let IntervaloDistancia = window.setInterval(function () {
             MetrosRecorridosCoche0 += Math.random() * (100 - 50) + 100;
             MetrosRecorridosCoche1 += Math.random() * (100 - 50) + 100;
             if (MetrosRecorridosCoche0 >= MetrosARecorrer || MetrosRecorridosCoche1 >= MetrosARecorrer) {

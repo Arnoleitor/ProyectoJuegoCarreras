@@ -179,3 +179,24 @@ html{
     font-family: fantasy;
     border-radius: 21px;
 }
+
+#alfatexto{
+    font-style: italic;
+    font-size: larger;
+    color: red;
+}
+#mclarentexto{
+    font-style: italic;
+    font-size: larger;
+    color: red;
+}
+#bmwtexto{
+    font-style: italic;
+    font-size: larger;
+    color: red;
+}
+#lambotexto{
+    font-style: italic;
+    font-size: larger;
+    color: red;
+}
