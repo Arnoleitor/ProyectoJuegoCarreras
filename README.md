@@ -10,7 +10,7 @@ Este es mi proyecto de juego con JavaScript y Css3:
 1.Apretar el botón start
 2.Seleccionar dos vehiculos 
 3.Cuando acabe la carrera apretar resultado para ver el ganador 
-4.Apretar botón "reiniciar" para volver a la selección de vehiculos.
+4.Apretar botón "reiniciar carrera" para volver a la selección de vehiculos.
 
 La funcion es sencilla , los coches 🚘 deben llegar o sobrepasar los 1000 metros de distancia , el que llegue antes sera el ganador🏁
 
