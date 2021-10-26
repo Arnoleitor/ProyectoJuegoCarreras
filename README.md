@@ -4,7 +4,7 @@ Proyecto Juego JS por Arnold Carcelen Espinosa
 
 BOOT CAMP RACING!!🎮
 
-Este es mi proyecto de juego con JavasCript y Css3:
+Este es mi proyecto de juego con JavaScript y Css3:
 
 
 ⚙️--------Esta seria la pantalla de inicio--------⚙️
