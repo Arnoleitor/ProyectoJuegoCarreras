@@ -2,9 +2,11 @@
 
 Proyecto Juego JS por Arnold Carcelen Espinosa
 
-BOOT CAMP RACING!!🎮
+BOOT CAMP RACING!!🎮🚘
 
 Este es mi proyecto de juego con JavaScript y Css3:
+
+La funcion es sencilla , los coches 🚘 deben llegar o sobrepasar los 1000 metros de distancia , el que llegue antes sera el ganador🏁
 
 
 ⚙️--------Esta seria la pantalla de inicio--------⚙️
