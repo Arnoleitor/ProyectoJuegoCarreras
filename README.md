@@ -38,4 +38,5 @@ La funcion es sencilla , los coches 🚘 deben llegar o sobrepasar los 1000 metr
 Agradecimientos a mis compañeros por resolver mis dudas.😁😁
 
 
-https://pngtree.com/
+modelo de vehiculos https://pngtree.com/
+intro realizada en https://app.videobolt.net/
