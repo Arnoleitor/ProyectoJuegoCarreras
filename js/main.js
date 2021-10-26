@@ -2,7 +2,7 @@
 
 const cambiarPantalla = (pantallaDestino) => {
 
-    let arrayDeFases = ["1", "2", "3", "4", "5"];
+    let arrayDeFases = ["pantalla1", "pantalla2", "pantalla3", "pantalla4", "pantalla5"];
 
     arrayDeFases = arrayDeFases.filter(iterador => !pantallaDestino.includes(iterador));
 
@@ -36,7 +36,7 @@ var MetrosARecorrer = 1000;
 
 function checkIndice() {
     if (indice == 2) {  
-        cambiarPantalla("4");
+        cambiarPantalla("pantalla4");
         var IntervaloDistancia = window.setInterval(function () {
             MetrosRecorridosCoche0 += Math.random() * (100 - 50) + 100;
             MetrosRecorridosCoche1 += Math.random() * (100 - 50) + 100;
@@ -62,6 +62,6 @@ function resetearJuego() {
     indice = 0;
     MetrosRecorridosCoche0 = 0;
     MetrosRecorridosCoche1 = 0;
-    cambiarPantalla("3");
+    cambiarPantalla("pantalla3");
     document.getElementById("botonResultado").style.display = "none";
 }

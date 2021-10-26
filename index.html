@@ -11,22 +11,22 @@
 
 <body>
     <!-- PANTALLA DE INICIO -->
-    <section id="1">
+    <section id="pantalla1">
         <div class="pantallaInicio">
-            <img class="inicio" onClick='cambiarPantalla("2")' src="/img/pressstart.jpg" alt="pantallaInicio" />
+            <img class="inicio" onClick='cambiarPantalla("pantalla2")' src="/img/pressstart.jpg" alt="pantallaInicio" />
         </div>
     </section>
     <!-- PANTALLA DE INTRO -->
-    <section id="2" style="display:none">
+    <section id="pantalla2" style="display:none">
         <div class="pantallaIntro">
             <video src="/video/intro.mp4" autoplay loop muted width="auto" height="100%"></video>
-            <div id="arrancamotores" onClick='cambiarPantalla("3")'>
+            <div id="arrancamotores" onClick='cambiarPantalla("pantalla3")'>
             <p id="arrancamotoresletras">ARRANCA MOTORES</p>
         </div>
         </div>
     </section>
     <!-- PANTALLA DE SELECCIÓN DE COCHES -->
-    <section id="3" style="display:none" class="pantalla3">
+    <section id="pantalla3" style="display:none" class="pantalla3">
         <div class="seleccionacoche">&darr;------SELECCIONA LOS COCHES------&darr;</div>
         <div class="pantallaSeleccion">
             <img class="bordes" onClick='seleccionarCoche("Alfa")' src="img/Alfa.png" alt="Alfa" />
@@ -38,7 +38,7 @@
     </section>
     <!-- PANTALLA DE LA CARRERA -->
     
-    <section id="4" style="display:none">
+    <section id="pantalla4" style="display:none">
         <div class="pantallaCarrera" >
             <img class="bordes" id="coche0" src="" alt="Coche0" />
             <img class="bordes" id="coche1" src="" alt="Coche1" />
@@ -48,11 +48,11 @@
             <div id="contadorCoche1">Metros recorridos:</div>
         </div>
         <div class="resultado">
-            <button id="botonResultado" style="display:none" type="button" onClick='cambiarPantalla("5")'>RESULTADO</button>
+            <button id="botonResultado" style="display:none" type="button" onClick='cambiarPantalla("pantalla5")'>RESULTADO</button>
         </div>    
     </section>
      <!-- GANADOR  -->
-    <section id="5" style="display:none">
+    <section id="pantalla5" style="display:none">
         <div>
             <div class="theWinnerIs">
                 &darr;¡EL GANADOR ES!&darr;
