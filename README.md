@@ -6,6 +6,8 @@ BOOT CAMP RACING!!🎮🚘
 
 Este es mi proyecto de juego con JavaScript y Css3:
 
+📔intrucciones📔: Si se aprieta F11 en el navegador la experiencia visual es mejor, F11 otra vez para salir de pantalla completa.1.Apretar el botón start 2.Seleccionar dos vehiculos 3.Cuando acabe la carrera apretar resultado para ver el ganador 4.Apretar botón reiniciar carrera para volver a la selección de vehiculos.
+
 La funcion es sencilla , los coches 🚘 deben llegar o sobrepasar los 1000 metros de distancia , el que llegue antes sera el ganador🏁
 
 
