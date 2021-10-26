@@ -13,12 +13,10 @@ const cambiarPantalla = (pantallaDestino) => {
 
     }
 }
-
+// ---- selección de coches ---- //
 
 let arrayDeCoches = ["", ""];
 let indice = 0;
-
-// ---- selección de coches ---- //
 
 function seleccionarCoche (coche) {
     arrayDeCoches[indice] = coche;
@@ -27,32 +25,31 @@ function seleccionarCoche (coche) {
     checkIndice();
 }
 
+// ----- Función carrera ----- //
 
 let MetrosRecorridosCoche0 = 0;
 let MetrosRecorridosCoche1 = 0;
 let MetrosARecorrer = 1000;
 
-// ----- Función carrera ----- //
-
 function checkIndice() {
     if (indice == 2) {  
         cambiarPantalla("pantalla4");
-        let IntervaloDistancia = window.setInterval(function () {
-            MetrosRecorridosCoche0 += Math.random() * (100 - 50) + 100;
-            MetrosRecorridosCoche1 += Math.random() * (100 - 50) + 100;
+    let IntervaloDistancia = window.setInterval(function () {
+     MetrosRecorridosCoche0 += Math.random() * (100 - 50) + 100;
+     MetrosRecorridosCoche1 += Math.random() * (100 - 50) + 100;
             if (MetrosRecorridosCoche0 >= MetrosARecorrer || MetrosRecorridosCoche1 >= MetrosARecorrer) {
                 document.getElementById("botonResultado").style.display = "block";
                 clearInterval(IntervaloDistancia);
-                if (MetrosRecorridosCoche0 < MetrosRecorridosCoche1) {
-                    document.getElementById("CocheGanador").src = "img/" + arrayDeCoches[1] + ".png";
+             if (MetrosRecorridosCoche0 < MetrosRecorridosCoche1) {
+                   document.getElementById("CocheGanador").src = "img/" + arrayDeCoches[1] + ".png";
                 }
-                else {
-                    document.getElementById("CocheGanador").src = "img/" + arrayDeCoches[0] + ".png";
+             else {
+                  document.getElementById("CocheGanador").src = "img/" + arrayDeCoches[0] + ".png";
                 }
             }   
-            document.getElementById("contadorCoche0").innerHTML = "Metros recorridos: " + MetrosRecorridosCoche0.toFixed(2);
-            document.getElementById("contadorCoche1").innerHTML = "Metros recorridos: " + MetrosRecorridosCoche1.toFixed(2);
-        }, 500);
+     document.getElementById("contadorCoche0").innerHTML = "Metros recorridos: " + MetrosRecorridosCoche0.toFixed(2);
+    document.getElementById("contadorCoche1").innerHTML = "Metros recorridos: " + MetrosRecorridosCoche1.toFixed(2);
+        }, 900);
     }
 }
 
