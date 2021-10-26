@@ -20,7 +20,7 @@ let indice = 0;
 
 function seleccionarCoche (coche) {
     arrayDeCoches[indice] = coche;
-    document.getElementById("coche" +indice).src="/img/"+coche+".png";
+    document.getElementById("coche" +indice).src="./img/"+coche+".png";
     indice++;
     checkIndice();
 }
